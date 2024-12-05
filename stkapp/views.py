@@ -1,5 +1,4 @@
 from os import times
-
 import requests
 from django.db.models.expressions import result
 from django.shortcuts import render, redirect
@@ -72,8 +71,8 @@ def stk_push(request):
             "PartyA": phone,
             "PartyB": SHORTCODE,
             "PhoneNumber" : phone,
-            "CallBackURL": "https://ee55-197-237-204-60.ngrok-free.app/callback",
-            "AccountReference": f"Transaction_{transaction.id}",
+            "CallBackURL": "https://fba8-154-159-238-207.ngrok-free.app/callback",
+            "AccountReference": "Mugoma softwares",
             "TransactionDesc": "Payment for Services"
         }
 
